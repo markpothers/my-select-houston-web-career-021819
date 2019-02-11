@@ -6,7 +6,7 @@ def my_select(collection)
     while x < collection.length
       filter.push(yield collection[x])
         if filter[x] == true
-          new_collection.push(collection[1])
+          new_collection.push(collection[x])
         end
       x += 1
     end
